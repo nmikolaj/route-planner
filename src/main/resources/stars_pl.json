@@ -1,0 +1,131 @@
+{
+  "stars": [
+    {
+      "name": "Aldebaran",
+      "xPosition": 50,
+      "yPosition": 400,
+      "brightness": 0.85
+    },
+    {
+      "name": "Elnath",
+      "xPosition": 100,
+      "yPosition": 450,
+      "brightness": 1.65
+    },
+    {
+      "name": "Tau Tauri",
+      "xPosition": 150,
+      "yPosition": 420,
+      "brightness": 3.50
+    },
+    {
+      "name": "Zeta Tauri",
+      "xPosition": 200,
+      "yPosition": 410,
+      "brightness": 2.95
+    },
+    {
+      "name": "Betelgeza",
+      "xPosition": 300,
+      "yPosition": 100,
+      "brightness": 0.42
+    },
+    {
+      "name": "Rygiel",
+      "xPosition": 320,
+      "yPosition": 500,
+      "brightness": 0.12
+    },
+    {
+      "name": "Bellatrix",
+      "xPosition": 280,
+      "yPosition": 150,
+      "brightness": 1.64
+    },
+    {
+      "name": "Spika",
+      "xPosition": 600,
+      "yPosition": 300,
+      "brightness": 0.98
+    },
+    {
+      "name": "Porrima",
+      "xPosition": 620,
+      "yPosition": 320,
+      "brightness": 2.74
+    },
+    {
+      "name": "Auva",
+      "xPosition": 610,
+      "yPosition": 340,
+      "brightness": 3.40
+    },
+    {
+      "name": "Vindemiatrix",
+      "xPosition": 630,
+      "yPosition": 310,
+      "brightness": 2.85
+    },
+    {
+      "name": "Antares",
+      "xPosition": 800,
+      "yPosition": 200,
+      "brightness": 1.06
+    },
+    {
+      "name": "Szaula",
+      "xPosition": 820,
+      "yPosition": 220,
+      "brightness": 1.62
+    },
+    {
+      "name": "Sargas",
+      "xPosition": 810,
+      "yPosition": 240,
+      "brightness": 1.86
+    },
+    {
+      "name": "Kaus Australis",
+      "xPosition": 830,
+      "yPosition": 210,
+      "brightness": 1.79
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Byk",
+      "stars": [
+        "Aldebaran",
+        "Elnath",
+        "Tau Tauri",
+        "Zeta Tauri"
+      ]
+    },
+    {
+      "name": "Orion",
+      "stars": [
+        "Betelgeza",
+        "Rigel",
+        "Bellatrix"
+      ]
+    },
+    {
+      "name": "Panna",
+      "stars": [
+        "Spika",
+        "Porrima",
+        "Auva",
+        "Vindemiatrix"
+      ]
+    },
+    {
+      "name": "Skorpion",
+      "stars": [
+        "Antares",
+        "Szaula",
+        "Sargas",
+        "Kaus Australis"
+      ]
+    }
+  ]
+}
