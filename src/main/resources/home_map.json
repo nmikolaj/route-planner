@@ -1,0 +1,131 @@
+{
+  "points": [
+    {
+      "name": "Hilltop Lookout",
+      "xPosition": 50,
+      "yPosition": 400,
+      "size": 1.00
+    },
+    {
+      "name": "Ridgeway Pass",
+      "xPosition": 100,
+      "yPosition": 450,
+      "size": 1.00
+    },
+    {
+      "name": "Old Oak Junction",
+      "xPosition": 150,
+      "yPosition": 420,
+      "size": 1.00
+    },
+    {
+      "name": "Crestview Point",
+      "xPosition": 200,
+      "yPosition": 410,
+      "size": 1.00
+    },
+    {
+      "name": "Summit Rock",
+      "xPosition": 300,
+      "yPosition": 100,
+      "size": 1.00
+    },
+    {
+      "name": "Lakeside Trailhead",
+      "xPosition": 320,
+      "yPosition": 500,
+      "size": 1.00
+    },
+    {
+      "name": "Forest Overlook",
+      "xPosition": 280,
+      "yPosition": 150,
+      "size": 1.00
+    },
+    {
+      "name": "Valley Crossroads",
+      "xPosition": 600,
+      "yPosition": 300,
+      "size": 1.00
+    },
+    {
+      "name": "Sunset Fork",
+      "xPosition": 620,
+      "yPosition": 320,
+      "size": 1.00
+    },
+    {
+      "name": "Meadow’s Edge",
+      "xPosition": 610,
+      "yPosition": 340,
+      "size": 1.00
+    },
+    {
+      "name": "Windy Summit",
+      "xPosition": 630,
+      "yPosition": 310,
+      "size": 1.00
+    },
+    {
+      "name": "Canyon Overpass",
+      "xPosition": 800,
+      "yPosition": 200,
+      "size": 1.00
+    },
+    {
+      "name": "Echo Ridge",
+      "xPosition": 820,
+      "yPosition": 220,
+      "size": 1.00
+    },
+    {
+      "name": "Riverbend Point",
+      "xPosition": 810,
+      "yPosition": 240,
+      "size": 1.00
+    },
+    {
+      "name": "South Peak",
+      "xPosition": 830,
+      "yPosition": 210,
+      "size": 1.00
+    }
+  ],
+  "routes": [
+    {
+      "name": "Highland Trail",
+      "points": [
+        "Hilltop Lookout",
+        "Ridgeway Pass",
+        "Old Oak Junction",
+        "Crestview Point"
+      ]
+    },
+    {
+      "name": "Summit Path",
+      "points": [
+        "Summit Rock",
+        "Lakeside Trailhead",
+        "Forest Overlook"
+      ]
+    },
+    {
+      "name": "Meadow Route",
+      "points": [
+        "Valley Crossroads",
+        "Sunset Fork",
+        "Meadow’s Edge",
+        "Windy Summit"
+      ]
+    },
+    {
+      "name": "Ridgeway Loop",
+      "points": [
+        "Canyon Overpass",
+        "Echo Ridge",
+        "Riverbend Point",
+        "South Peak"
+      ]
+    }
+  ]
+}

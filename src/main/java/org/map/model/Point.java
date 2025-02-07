@@ -1,16 +1,16 @@
-package org.starmap.model;
+package org.map.model;
 
-public class Star {
+public class Point {
     private String name;
     private double xPosition;
     private double yPosition;
-    private double brightness;
+    private double size;
 
-    public Star(String name, double xPosition, double yPosition, double brightness) {
+    public Point(String name, double xPosition, double yPosition, double size) {
         this.name = name;
         this.xPosition = xPosition;
         this.yPosition = yPosition;
-        this.brightness = brightness;
+        this.size = size;
     }
 
     public String getName() {
@@ -31,9 +31,9 @@ public class Star {
 
     public void setYPosition(double yPosition) { this.yPosition = yPosition; }
 
-    public double getBrightness() {
-        return brightness;
+    public double getSize() {
+        return size;
     }
 
-    public void setBrightness(double newBrightness) { this.brightness = newBrightness; }
+    public void setSize(double newSize) { this.size = newSize; }
 }
