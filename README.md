@@ -1,24 +1,30 @@
+# Route Planner
 
-# Constellations
-
-JavaFX-based desktop application that allows users to visualize stars and constellations on a map. The application aims to provide a simple and interactive way to learn about the night sky.
+A JavaFX-based desktop application for creating and managing custom maps with interactive points and routes, offering an intuitive way to plan and organize journeys.
 
 ## Features
 
-- **Add Stars**: Dynamically add stars to the map.
-- **Star Interaction**: Right-click on any star to perform the following actions:
-  - **Delete**: Remove picked star.
-  - **Rename**: Change name of an existing star.
-  - **Change Brightness**: Adjust star's visibility within its constellation.
-  - **Assign to Constellations**: Group stars into constellations.
-- **Save and Load Data**: Save and load constellations in JSON format.
-- **Show Coordinates**: Display a grid overlay to help locate the coordinates of stars on the map.
+- **Custom Map Upload** – Use any image as your map background.
+- **Trip Planning** – Add points for landmarks, stops and waypoints.
+- **Route Management** – Create, rename and delete custom routes.
+- **Interactive Editing**:
+  - Right-click points to rename, resize, assign to routes or delete.
+  - Drag and drop points to adjust locations.
+- **Map Customization**:
+  - Toggle a coordinate grid for better navigation.
+  - Change background image anytime.
+- **Save & Load Maps** – Store maps with all routes and points in JSON format.
+
+## Screenshots
+
+| <img width="437" alt="point_right_click" src="https://github.com/user-attachments/assets/d6b8c75d-9e64-4fb2-bcb6-b54cf12f5500"> | <img width="437" alt="new_route" src="https://github.com/user-attachments/assets/0b221bd0-e9e6-46ca-9cb6-5bca9206fe1f"> |
+|:---------------------------------------:|:---------------------------------------:|
 
 ## Installation
 
 #### Prerequisites
 
-- **Java JDK 11+**
+- **Java JDK 17+**
 - **Maven**
 
 ### Steps:
@@ -26,8 +32,8 @@ JavaFX-based desktop application that allows users to visualize stars and conste
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/yourusername/star-map-app.git
-   cd star-map-app
+   git clone https://github.com/nmikolaj/route-planner.git
+   cd route-planner
    ```
 
 2. **Build the project**:
@@ -41,4 +47,3 @@ JavaFX-based desktop application that allows users to visualize stars and conste
    ```bash
    mvn javafx:run
    ```
-
