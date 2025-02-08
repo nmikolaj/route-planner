@@ -18,6 +18,11 @@ public class DataLoader {
         try {
             String content = new String(Files.readAllBytes(Paths.get(filePath)));
             JSONObject jsonObject = new JSONObject(content);
+
+            if (!jsonObject.has("points")) {
+                return points; // Return empty list if key is missing
+            }
+
             JSONArray pointsJson = jsonObject.getJSONArray("points");
 
             for (int i = 0; i < pointsJson.length(); i++) {
@@ -31,7 +36,10 @@ public class DataLoader {
                 points.add(point);
             }
         } catch (IOException e) {
+            System.err.println("Error reading file: " + filePath);
             e.printStackTrace();
+        } catch (org.json.JSONException e) {
+            System.err.println("Malformed JSON in file: " + filePath);
         }
         return points;
     }
@@ -41,6 +49,11 @@ public class DataLoader {
         try {
             String content = new String(Files.readAllBytes(Paths.get(filePath)));
             JSONObject jsonObject = new JSONObject(content);
+
+            if (!jsonObject.has("routes")) {
+                return routes; // Return empty list if key is missing
+            }
+
             JSONArray routesJson = jsonObject.getJSONArray("routes");
 
             for (int i = 0; i < routesJson.length(); i++) {
@@ -62,7 +75,10 @@ public class DataLoader {
                 routes.add(route);
             }
         } catch (IOException e) {
+            System.err.println("Error reading file: " + filePath);
             e.printStackTrace();
+        } catch (org.json.JSONException e) {
+            System.err.println("Malformed JSON in file: " + filePath);
         }
         return routes;
     }
