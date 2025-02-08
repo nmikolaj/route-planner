@@ -80,9 +80,18 @@ public class MapController {
 
     // Add new point to the map
     public void addPoint(MapView view) {
-        Point point = new Point("New Point", 95, 700, 3.5);
+        int pointIndex = 1;
+        String baseName = "New Point";
+        String uniqueName = baseName;
+
+        // Ensure unique name
+        while (getPointByName(uniqueName).isPresent()) {
+            uniqueName = baseName + " " + pointIndex;
+            pointIndex++;
+        }
+
+        Point point = new Point(uniqueName, 95, 700, 2);
         points.add(point);
-        // view.clearCanvas();
         view.drawMap();
     }
 

@@ -101,10 +101,9 @@ public class MainApp extends Application {
         Region spacer = new Region();
         HBox.setHgrow(spacer, Priority.ALWAYS); // Takes up all the available space
         controlPanel.getChildren().add(spacer);
-
-        Button manageRoutesButton = new Button("Manage Routes");
-        manageRoutesButton.setPrefSize(180, 60);
-        manageRoutesButton.setStyle("-fx-font-size: 14px;");
+        Button manageRoutesButton = new Button("Routes");
+        manageRoutesButton.setPrefSize(140, 50);
+        manageRoutesButton.setStyle("-fx-font-size: 16px;");
 
         ContextMenu routeMenu = new ContextMenu();
 
@@ -131,9 +130,9 @@ public class MainApp extends Application {
         });
         controlPanel.getChildren().add(manageRoutesButton);
 
-        Button manageMapsButton = new Button("Manage Maps");
-        manageMapsButton.setPrefSize(180, 60);
-        manageMapsButton.setStyle("-fx-font-size: 14px;");
+        Button manageMapsButton = new Button("Maps");
+        manageMapsButton.setPrefSize(140, 50);
+        manageMapsButton.setStyle("-fx-font-size: 16px;");
 
         ContextMenu mapsMenu = new ContextMenu();
 
@@ -209,8 +208,8 @@ public class MainApp extends Application {
         controlPanel.getChildren().add(manageMapsButton);
 
         ChoiceBox<String> loadMapChoiceBox = new ChoiceBox<>();
-        loadMapChoiceBox.setPrefSize(150, 60);
-        loadMapChoiceBox.setStyle("-fx-font-size: 14px;");
+        loadMapChoiceBox.setPrefSize(160, 50);
+        loadMapChoiceBox.setStyle("-fx-font-size: 16px;");
         loadMapChoiceBox.setValue("Load Map");
 
         loadMapChoiceBox.setOnShowing(event -> {
@@ -241,7 +240,7 @@ public class MainApp extends Application {
         if (cssPath != null) {
             scene.getStylesheets().add(cssPath);
         }
-        primaryStage.setTitle("Map");
+        primaryStage.setTitle("RoutePlanner");
         primaryStage.setScene(scene);
         primaryStage.show();
         view.drawMap();
